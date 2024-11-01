@@ -4,6 +4,8 @@ Hi all! Today we'll be solving the first path traversal lab from Portswigger Web
 
 ---
 
+### Lab Description
+
 ![Lab Desc](./images/path-travesal-1-lab-desc.png)
 
 The description says that the app is vulnerable to path / directory traversal vulnerability in the image display functionality. And our goal is to get the contents of the `etc/passwd` file, which contains some data *(including hashed passwords)* about all users in a Linux system.
